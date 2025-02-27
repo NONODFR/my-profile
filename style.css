@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #e8f5e9;
@@ -36,12 +38,14 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+/* ✅ Fixed profile image */
 .profile-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     background-color: #ccc; /* couleur de fond au cas où l'image ne se charge pas */
+    border: 3px solid #388e3c; /* Added a green border */
 }
 
 .profile-text {
@@ -117,13 +121,4 @@ body {
 }
 
 .passion-card h3 {
-    color: #388e3c;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.passion-card p {
-    color: #2e7d32;
-    font-size: 1em;
-    line-height: 1.4;
-}
+    color:
